@@ -1,4 +1,4 @@
-import contants
+import constants
 import utils
 
 
@@ -8,6 +8,6 @@ class Transaction(object):
         self.api_key = api_key
 
     def capture(self, token, data):
-        api_route = contants.CAPTURE_TRANSACTION_AFTER.format(token)
+        api_route = constants.CAPTURE_TRANSACTION_AFTER.format(token)
         data['api_key'] = self.api_key
         return utils.request_post(api_route, data)
