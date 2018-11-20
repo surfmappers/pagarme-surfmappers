@@ -4,11 +4,12 @@ import utils
 
 
 class Transaction(object):
-    def __init__(self, api_key):
+    def __init__(self):
         super(Transaction, self).__init__()
-        self.api_key = api_key
+
+    def create(self, data):
+        return utils.request_post(constants.CREATE_TRANSACTION_URL, data)
 
     def capture(self, token, data):
-        api_route = constants.CAPTURE_URL.format(token)
-        data['api_key'] = self.api_key
+        api_route = constants.CAPTURE_TRANSACTION_URL.format(token)
         return utils.request_post(api_route, data)

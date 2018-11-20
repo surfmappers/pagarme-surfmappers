@@ -1,0 +1,1 @@
+from pagarme_surfmappers.utils import set_api_key
