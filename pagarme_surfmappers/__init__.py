@@ -1,2 +1,3 @@
 from pagarme_surfmappers.utils import set_api_key
 from pagarme_surfmappers.transaction import Transaction
+from pagarme_surfmappers.bank import BankAccount
