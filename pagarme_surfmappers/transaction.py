@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
-import constants
-import utils
+import pagarme_surfmappers.constants as constants
+import pagarme_surfmappers.utils as utils
 
 
 class Transaction(object):
