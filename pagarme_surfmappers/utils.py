@@ -22,3 +22,8 @@ def request_post(url, data, headers=headers()):
 def request_get(url, data={}, headers=headers()):
     data['api_key'] = KEYS['api_key']
     return requests.get(url)
+
+
+def request_put(url, data, headers=headers()):
+    data['api_key'] = KEYS['api_key']
+    return requests.put(url, json=data, headers=headers)
