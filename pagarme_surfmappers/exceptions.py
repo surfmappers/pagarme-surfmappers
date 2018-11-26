@@ -3,4 +3,4 @@ class RequestException(Exception):
         message += ' - Status code:' + str(status_code)
         if errors:
             message += ' - erros: ' + str(errors)
-        super(RequestException. self).__init__(message)
+        super(RequestException, self).__init__(message)
