@@ -11,13 +11,14 @@ def headers():
 
 
 def check_response(response):
-    if response.status == 200:
-        if not response.get("errors"):
-            return response
+    status = response.status_code
+    _return = response.json()
+    if status == 200:
+        if not _return.get('errors'):
+            return _return
         else:
-            raise RequestException("Something whent wrong: " + response.get('errors'))
-            return
-    raise RequestException("Bad request: status code" + str(response.status))
+            raise RequestException("An error has occured", errors=_return.get('errors'))
+    raise RequestException("Bad request: status code", status_code=status)
 
 
 def set_api_key(api_key):
