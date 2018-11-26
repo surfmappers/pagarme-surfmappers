@@ -18,7 +18,7 @@ def check_response(response):
             return _return
         else:
             raise RequestException("An error has occured", errors=_return.get('errors'))
-    raise RequestException("Bad request: status code", status_code=status)
+    raise RequestException("Bad request: status code", status_code=status, errors=_return.get('errors'))
 
 
 def set_api_key(api_key):
