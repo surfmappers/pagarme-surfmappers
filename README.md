@@ -68,7 +68,7 @@ print(response)
 ```
 
 # Contributing
-The main purpose of this repository is to continue to evolve Pagar.me api code, making it faster and easier to use. Development of React happens in the open on GitHub, and we are grateful to the community for contributing bugfixes and improvements. Read below to learn how you can take part in improving React.
+Feel free to contribut to this code, improving it.
 
 # License
 This lib is [MIT licensed](./LICENSE).
