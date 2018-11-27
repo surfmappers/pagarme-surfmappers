@@ -33,7 +33,7 @@ def request_post(url, data, headers=headers()):
 
 def request_get(url, data={}, headers=headers()):
     data['api_key'] = KEYS['api_key']
-    return check_response(requests.get(url))
+    return check_response(requests.get(url, json=data, headers=headers))
 
 
 def request_put(url, data, headers=headers()):
