@@ -10,3 +10,7 @@ class BulkAnticipation(object):
     def create(self, recipient_id, data):
         url = constants.CREATE_BULK_ANTICIPATION_URL.format(recipient_id)
         return utils.request_post(url, data)
+
+    def limits(self, recipient_id, data):
+        url = constants.GET_BULK_LIMITS.format(recipient_id)
+        return utils.request_get(url, data=data)
