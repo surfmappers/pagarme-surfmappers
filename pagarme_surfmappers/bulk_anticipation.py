@@ -18,3 +18,7 @@ class BulkAnticipation(object):
     def confirm(self, recipient_id, bulk_id):
         url = constants.CONFIRM_BULK_ANTICIPATION.format(recipient_id, bulk_id)
         return utils.request_post(url, data={})
+
+    def cancel(self, recipient_id, bulk_id):
+        url = constants.CANCEL_BULK_ANTICIPATION.format(recipient_id, bulk_id)
+        return utils.request_post(url, data={})
