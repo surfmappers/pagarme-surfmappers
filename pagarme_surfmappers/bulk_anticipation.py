@@ -14,3 +14,7 @@ class BulkAnticipation(object):
     def limits(self, recipient_id, data):
         url = constants.GET_BULK_LIMITS.format(recipient_id)
         return utils.request_get(url, data=data)
+
+    def confirm(self, recipient_id, bulk_id):
+        url = constants.CONFIRM_BULK_ANTICIPATION.format(recipient_id, bulk_id)
+        return utils.request_post(url, data={})

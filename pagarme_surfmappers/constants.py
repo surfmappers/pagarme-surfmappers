@@ -12,6 +12,7 @@ GET_RECIPIENT_URL = BASE_URL + "recipients/{0}"
 GET_RECIPIENT_BALANCE_URL = BASE_URL + "recipients/{0}/balance"
 CREATE_BULK_ANTICIPATION_URL = "recipients/{0}/bulk_anticipations"
 GET_BULK_LIMITS = "recipients/{0}/bulk_anticipations/limits"
+CONFIRM_BULK_ANTICIPATION = "{0}/bulk_anticipations/{1}/confirm"
 # Transfer's URLs:
 CREATE_TRANSFER_URL = BASE_URL + "transfers"
 GET_TRANSFER_URL = BASE_URL + "/transfers/{0}"
