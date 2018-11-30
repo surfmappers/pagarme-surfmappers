@@ -1,10 +1,25 @@
 # Pagarme Surfmappers
+.. image:: https://img.shields.io/pypi/v/pagarme-surfmappers.svg
+    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
+    :alt: Latest PyPI version
+
+.. image:: https://img.shields.io/pypi/wheel/pagarme-surfmappers.svg
+    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
+    :alt: Wheel Status
+
+.. image:: https://img.shields.io/pypi/pyversions/pagarme-surfmappers.svg
+    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
+    :alt: Supported Python Versions
+
+.. image:: https://img.shields.io/pypi/l/pagarme-surfmappers.svg
+    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
+    :alt: License
+
 An implementation of the Pagar.me API for Python. This repository appears as an alternative to the Pagar.me library suggested by the documentation, that has some problems and which, for example, was not used by us because of this.
 
 # Install
-We're currently working to put this lib in PyPi, but you can install it by pip using the following command:
 
-```pip install git+https://github.com/YuriAlessandro/pagarme-surfmappers```
+```pip install pagarme-surfmappers```
 
 # How to use
 You can use this lib as [Pagar.me documentation](https://docs.pagar.me/v2017-08-28/reference) suggests to. Above we'll show some examples
