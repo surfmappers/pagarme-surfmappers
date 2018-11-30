@@ -1,19 +1,5 @@
 # Pagarme Surfmappers
-.. image:: https://img.shields.io/pypi/v/pagarme-surfmappers.svg
-    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
-    :alt: Latest PyPI version
-
-.. image:: https://img.shields.io/pypi/wheel/pagarme-surfmappers.svg
-    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
-    :alt: Wheel Status
-
-.. image:: https://img.shields.io/pypi/pyversions/pagarme-surfmappers.svg
-    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
-    :alt: Supported Python Versions
-
-.. image:: https://img.shields.io/pypi/l/pagarme-surfmappers.svg
-    :target: https://pypi.python.org/pypi/pagarme-surfmappers/
-    :alt: License
+[![Latest PyPI version](https://img.shields.io/pypi/v/pagarme-surfmappers.svg)](https://pypi.python.org/pypi/pagarme-surfmappers/) [![Wheel Status](https://img.shields.io/pypi/wheel/pagarme-surfmappers.svg)](https://pypi.python.org/pypi/pagarme-surfmappers/) [![Supported Python Versions](https://img.shields.io/pypi/pyversions/pagarme-surfmappers.svg)](https://pypi.python.org/pypi/pagarme-surfmappers/) [![License](https://img.shields.io/pypi/l/pagarme-surfmappers.svg)](https://pypi.python.org/pypi/pagarme-surfmappers/)
 
 An implementation of the Pagar.me API for Python. This repository appears as an alternative to the Pagar.me library suggested by the documentation, that has some problems and which, for example, was not used by us because of this.
 
