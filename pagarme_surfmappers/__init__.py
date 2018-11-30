@@ -2,3 +2,5 @@ from pagarme_surfmappers.utils import set_api_key
 from pagarme_surfmappers.transaction import Transaction
 from pagarme_surfmappers.bank import BankAccount
 from pagarme_surfmappers.recipient import Recipient
+from pagarme_surfmappers.transfer import Transfer
+from pagarme_surfmappers.bulk_anticipation import BulkAnticipation
