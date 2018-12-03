@@ -7,7 +7,7 @@ requires = [i.strip() for i in open("requirements.txt").readlines()]
 
 setuptools.setup(
     name='pagarme-surfmappers',
-    version='1.3.1',
+    version='1.3.2',
     description='Simple Pagar.me module made by Surfmappers.com',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -22,6 +22,6 @@ setuptools.setup(
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 2.7',
-        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.6',
     ],
 )
