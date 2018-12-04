@@ -3,6 +3,7 @@ BASE_URL = "https://api.pagar.me/1/"
 # Transaction's URLs:
 CREATE_TRANSACTION_URL = BASE_URL + "transactions"
 CAPTURE_TRANSACTION_URL = BASE_URL + "transactions/{0}/capture"
+CALCULE_TRANSACTION_INSTALLMENTS = BASE_URL + "transactions/calculate_installments_amount"
 # Bank's URLs:
 CREATE_BANK_URL = BASE_URL + "bank_accounts"
 GET_BANK_URL = BASE_URL + "bank_accounts/{0}"
