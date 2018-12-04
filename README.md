@@ -16,9 +16,6 @@ We gonna assume that you already have an valid Pagar.me api key:
 YOUR_API_KEY = "your_pagarme_api_key"
 ```
 
-## Summary
-
-
 ## Bank Account
 You can create and get an bank account. Check [Pagar.me documentation](https://docs.pagar.me/v2017-08-28/reference#criando-uma-conta-banc%C3%A1ria) for more details:
 
@@ -223,6 +220,8 @@ print(new_transfer)
 
 # Contributing and Support
 Feel free to contribut to this code, improving it. Any problems can be reported in form of github issue, as any doubts. 
+
+# [Changelog](./CHANGELOG.md)
 
 # License
 This lib is [MIT licensed](./LICENSE).

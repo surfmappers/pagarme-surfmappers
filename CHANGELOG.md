@@ -1,11 +1,12 @@
 # CHANGELOG 
 
-### 1.3.2
+### 1.3.3
 * Improve documentation
 * Add transaction support
 * Add bulk anticipation support
 * Add transfer support
 * Fix bugs
+* Fix requirements
 
 ### 1.2.1
 * Add recipient support
