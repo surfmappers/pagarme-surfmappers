@@ -193,6 +193,29 @@ except Exception as e:
 print(captured_transaction)
 ```
 
+### Calculate Installments
+```python
+import pagarme_surfmappers
+
+YOUR_API_KEY = "your_pagarme_api_key"
+
+params = {
+    ...
+}
+
+pagarme_surfmappers.set_api_key(YOUR_API_KEY)
+transaction = pagarme_surfmappers.Transaction()
+token_id = "some_transaction_token_id"
+
+try:
+    installments = transaction.calculate_installments_amount(token_id, params)
+except Exception as e:
+    print(e)
+    raise
+
+print(installments)
+```
+
 ## Transfer
 You can create, get and cancel an transfer. Check [Pagar.me documentation](https://docs.pagar.me/v2017-08-28/reference#criando-uma-transfer%C3%AAncia) for more details:
 
