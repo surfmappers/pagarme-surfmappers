@@ -16,6 +16,13 @@ We gonna assume that you already have an valid Pagar.me api key:
 YOUR_API_KEY = "your_pagarme_api_key"
 ```
 
+## Table of Contents
+- [Bank Account](#bank-account)
+- [Bulk Anticipation](#bulk-anticipation)
+- [Recipient](#recipient)
+- [Transaction](#transaction)
+- [Transfer](#transfer)
+
 ## Bank Account
 You can create and get an bank account. Check [Pagar.me documentation](https://docs.pagar.me/v2017-08-28/reference#criando-uma-conta-banc%C3%A1ria) for more details:
 
@@ -148,7 +155,7 @@ print(user_balance)
 ## Transaction
 You can create and capture an transaction. Check [Pagar.me documentation](https://docs.pagar.me/v2017-08-28/reference#criar-transacao) for more details:
 
-### Create transaction
+### Create Transaction
 ```python
 import pagarme_surfmappers
 
@@ -170,7 +177,7 @@ except Exception as e:
 print(new_transaction)
 ```
 
-### Capture Transcation
+### Capture Transaction
 ```python
 import pagarme_surfmappers
 
