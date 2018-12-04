@@ -1,5 +1,8 @@
 # CHANGELOG 
 
+### 1.4.0
+* Add method to calculate installments
+
 ### 1.3.3
 * Improve documentation
 * Add transaction support
