@@ -13,3 +13,6 @@ class Transaction(object):
     def capture(self, token, data):
         api_route = constants.CAPTURE_TRANSACTION_URL.format(token)
         return utils.request_post(api_route, data)
+
+    def calculate_installments_amount(self, data):
+        return utils.request_get(constants.CALCULE_TRANSACTION_INSTALLMENTS)
