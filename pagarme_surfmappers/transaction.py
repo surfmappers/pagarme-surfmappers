@@ -15,4 +15,4 @@ class Transaction(object):
         return utils.request_post(api_route, data)
 
     def calculate_installments_amount(self, data):
-        return utils.request_get(constants.CALCULE_TRANSACTION_INSTALLMENTS)
+        return utils.request_get(constants.CALCULE_TRANSACTION_INSTALLMENTS, data)
